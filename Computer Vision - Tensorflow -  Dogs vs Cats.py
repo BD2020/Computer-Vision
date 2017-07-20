@@ -1,3 +1,6 @@
+
+# Import Python and TensorFlow libraries
+#
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
