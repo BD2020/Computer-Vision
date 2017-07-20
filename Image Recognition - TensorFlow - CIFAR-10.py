@@ -1,4 +1,6 @@
-%matplotlib inline
+
+# Import Python and TensorFlow libraries
+#
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import cifar10
@@ -12,6 +14,8 @@ import time
 from datetime import timedelta
 import math
 import os
+
+%matplotlib inline
 
 cifar10.data_path = "C:\\ML_Data\\_CIFAR-10\\"
 
