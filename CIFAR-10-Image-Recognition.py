@@ -4,7 +4,8 @@
 # Image Recognition and Classification using Convolution Neural Networks
 # and TensorFlow
 #
-%matplotlib inline
+# Import Python and TensorFlow libraries
+#
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
@@ -13,6 +14,8 @@ import time
 from datetime import timedelta
 import math
 import os
+
+%matplotlib inline
 
 # Use PrettyTensor to simplify Neural Network construction.
 import prettytensor as pt
