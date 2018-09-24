@@ -241,7 +241,7 @@ global_step = tf.Variable(initial_value=0,
 _, loss = create_network(training=True)
 
 # Use the ADAP optimizer
-#
+# 
 optimizer = tf.train.AdamOptimizer(learning_rate=1e-4).minimize(loss, global_step=global_step)
 
 # Neural Network testing phase
