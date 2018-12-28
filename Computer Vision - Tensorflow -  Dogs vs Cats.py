@@ -179,7 +179,7 @@ test_x = np.array([i[0] for i in test]).reshape(-1, IMAGE_SIZE, IMAGE_SIZE, 1)
 test_y = [i[1] for i in test]
 
 # now fit for five epochs:
-#
+# 
 model.fit({'input': X}, 
           {'targets': Y}, 
           n_epoch=5, 
